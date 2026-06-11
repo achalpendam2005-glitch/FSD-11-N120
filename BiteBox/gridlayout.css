@@ -1,0 +1,22 @@
+.grid-conntainer
+{
+    bordr:2px solid black;
+    display:grid;
+    gap:20px;
+    /*grid-temple-columens:100px 200px;*/
+    /* grid-template-columns:100px 200px;*/
+    /* grid-template-coloumn:200px 500px  auto;*/
+    grid-template-rows:100px 200px;
+    grid-template-coloumn:100px 400px;
+    grid-auto-rows:50px;
+}
+.grid-item
+{}
+    border:2px solid #d81d1d;
+    background-color:rgb(14, 14, 209)
+    /*align-self:centre;/*
+}
+    #child-1{
+    justify:end;
+
+

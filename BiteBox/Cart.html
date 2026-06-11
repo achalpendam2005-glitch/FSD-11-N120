@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./cart.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Playwrite+IE:wght@100..400&display=swap');
+    </style>
+
+</head>
+ 
+  <body>
+   <script src="https://kit.fontawesome.com/be22cb7f58.js" crossorigin="anonymous"></script>
+  <header>
+        <nav>
+            <div class="logo">
+                <!-- this is logo section -->
+                <!-- <h2> <span style="color: red;">Bite Box</span> </h2> -->
+                <img src="../images/" width="150px" height="50px" alt="">
+
+            </div>
+            <!-- Menu -->
+            <ul type="none">
+                <li><a href="./index.html" target="_blank">Home</a></li>
+                <li><a href="./Menu.html" target="_self">Menu</a></li>
+                <li><a href="./BiteDeals.html">BiteDeals</a></li>
+                <li><a href="./Cart.html"><i class="fa-solid fa-cart-plus"></i>Cart</a></li>
+                <li><a href="./Login.html"><button id="login-button"><i
+                                class="fa-solid fa-user-clock"></i>Login</button></a></li>
+            </ul>
+
+        </nav>
+    </header>
+</body>
+
+<!--cart table-->
+<section class="cart">
+  <table>
+    <thead>
+      <th>Item</th>
+      <th>Qty</th>
+       <th>total</th>
+        <th>remove</th>
+          
+    </thead>
+    <tbody>
+      <tr>
+        <td class="items">
+          <img src="../images/burger.jpg" alt="">
+          <div>
+            <h4>burger</h4>
+            <p>cheesy grilled burger</p>
+
+          </div>
+
+        </td>
+        <td>
+          <div class="qty-box">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+        </td>
+        <td>$199</td>
+        <td><button class="remove">x</button></td>
+      </tr>
+      <tr class="grand-total">
+        <td colspan="3">grand-total</td>
+        <td>$199</td>
+        <td><button>proceed</button></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+</html>

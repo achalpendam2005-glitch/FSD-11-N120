@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: red;
+
+}
+
+#login-button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+
+.hero-section {
+    height: 90vh;
+    background-image: url(../images/banner-3.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+.hero-content {
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#btn-order-now {
+    background-color: red;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    margin-top: 10px;
+}
+.auth-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(130deg,black,rgba(99,99,99,0,0.8972));
+    height:100vh;
+}
+.auth-box{
+    background:hsl(0, 7%, 92%);
+    padding:40px;
+    border-radius:10px;
+    width:320px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(114 ,113,113,0.849);
+}
+.auth-box h2{
+
+    margin-bottom:20px;
+    color:darkred;
+}
+.auth-box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid black;
+    border-radius:5px;
+    outline:none;
+}
+.auth-box input:focus{
+border-color:red;
+}
+.auth-box button{
+    width:100%;
+    padding:10px;
+    background:rgb(162, 49, 49);
+    text-color:white;
+    border:none;
+    border-redius:5px;
+    margin-top:10px;
+    cursor:pointer;
+}
+.auth-box button:hover{
+    background-color:blanchedalmond;
+}
+.auth-box p{
+margin-top:15px;
+font-size:12px;
+
+}
+.auth-box a{
+    color:red;
+    text-decoration:none;
+}
+.logo h2 {
+  background-color: red; 
+  color: #161414;            
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;   
+}

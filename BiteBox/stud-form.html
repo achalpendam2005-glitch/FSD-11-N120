@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form method="get" action="./success.html">
+        First name : <input type="text" id="fn" required placeholder="Enter your first name">        
+        <br>
+        <br>
+        Last name : <input type="text" id="ln" required placeholder="Enter your last name">        
+        <br>
+        <br>
+        City : 
+        <select name="city" id="city">
+            <option>Select your city</option>
+            <option>Nagpur</option>
+            <option>Nashik</option>
+            <option>Amravati</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Yevatmal</option>
+        </select>
+        <br>
+        <br>
+        Roll no : <input type="number" id="rollno" required>
+        <br>
+        <br>
+        DOB : <input type="date" id="dob">
+        <br> <br>
+        Email id : <input type="email" id="email" required>
+        <br><br>
+        Mobile no : <input type="number" id="mobno" required>
+        <br><br>
+        Admission Date : <input type="date" id="admndate" required>
+        <br><br>
+        Subjects : 
+        Java 8 <input type="checkbox" id="sub1">
+        HTML-CSS <input type="checkbox" id="sub2">
+        React <input type="checkbox" id="sub3">
+        MySQL <input type="checkbox" id="sub4">
+        Python <input type="checkbox" id="sub5">
+        Spring Boot <input type="checkbox" id="sub6">
+        <br><br>
+        Gender : 
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Other
+        <br><br>
+        Password : <input type="password" id="password">
+        <br><br>
+        Feedback : <textarea name="feedback" id="feedback" rows="2" cols="10"></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+        
+
+
+
+
+    </form>
+</body>
+</html>
