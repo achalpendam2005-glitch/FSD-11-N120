@@ -37,24 +37,29 @@
   <!--Login section-->
   <section class="auth-container">
     <div class="auth-box">
-      <h2>Login to BiteBox</h2>
-      <div class="logo">
-  <h2>
-    <span class="bite">Bite</span>
-    <span class="box">Box</span>
-  </h2>
+      <h2>Login to BiteBox <span>Box</span></h2>
+      <form>
+        <input type="email" placeholder="enter Email" id="email" required>
+        <div style="position:relative">
+            <input type="password" placeholder="enter your password" id="password" required>
+              <span onclick="togglePassword()" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">
+      <i class="fa-regular fa-eye"></i>
+    </span>
+        </div>
+      <button type="button" onclick="login()">Login</button>
+      </form>
+
 </div>
 
-    <input type="email" placeholder="enter Email" required>
-    <input type="password" placeholder="enter you password" required>
-    <p><a href="">forgot passsword</a></p>
-      <p>Don't have aan acount</p>
-      <a href="./sign-up.html">signup</a>
-      <div class="logo">
+  <!-- <input type="email" placeholder="enter Email" required> -->
+   <!-- // <input type="password" placeholder="enter you password" required>
+//p><a href="">forgot passsword</a></p>
+   //   <p>Don't have aan acount</p>
+     // <a href="./sign-up.html">signup</a>
+      //<div class="logo"> -->
+      
  
-</div>
-
-
+      </div>
 
   </div>
      </section>
